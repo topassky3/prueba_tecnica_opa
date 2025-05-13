@@ -1,0 +1,45 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa; /* Un gris muy claro para el fondo */
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+.elemento-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Espacio entre inputs y botón */
+    margin-bottom: 0.75rem;
+    padding: 0.5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    background-color: #fff;
+}
+
+.elemento-row input[type="text"],
+.elemento-row input[type="number"] {
+    flex-grow: 1;
+}
+
+.elemento-row .form-control-sm {
+    min-width: 60px; /* Ancho mínimo para inputs de peso/calorías */
+}
+
+#resultadoOptimo .alert {
+    border-left-width: 5px;
+}
+#resultadoOptimo .alert-success {
+    border-left-color: #198754;
+}
+#resultadoOptimo .alert-warning {
+    border-left-color: #ffc107;
+}
+#resultadoOptimo .alert-info {
+    border-left-color: #0dcaf0;
+}
+
+#currentYear {
+    font-weight: normal;
+}
